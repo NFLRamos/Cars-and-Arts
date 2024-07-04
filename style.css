@@ -1,0 +1,29 @@
+/*
+Theme Name: Cars & Arts
+Theme URI: https://carsnarts.com/
+Author: FRESHMILK
+Author URI: https://freshmilk.ch
+Version: 0.3.2
+Requires at least: 5.0
+Tested up to: 5.8.1
+Requires PHP: 5.2
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: carsandarts
+
+Cars & Arts WordPress Theme, (C) 2022 SUCCESSPIGMENT LDA.
+Cars & Arts is distributed under the terms of the GNU GPL.
+
+Resource Licenses:
+Cars & Arts is Understrap.
+Understrap is based on Underscores https://underscores.me/, (C) Automattic, Inc.
+Font Awesome: https://fontawesome.com/v4.7/license/ (Font: SIL OFL 1.1, (S)CSS: MIT)
+Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
+WP Bootstrap Navwalker by Edward McIntyre & William Patton: https://github.com/twittem/wp-bootstrap-navwalker (GNU GPLv3)
+*/
+
+/*
+Do not modify the parent Understrap theme. Instead, download a copy of the Understrap Child starter theme and do all your development within the child theme.
+Full developer documentation: https://docs.understrap.com
+*/
+
