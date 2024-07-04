@@ -1,0 +1,104 @@
+.produtos-subnav{
+
+    .aboutNav{
+        justify-content: space-evenly;
+        font-size: 16px;
+        //text-transform: uppercase;
+    }
+    @media (min-width:992px) {
+        .aboutNav{
+            font-size:30px;
+        }
+    }
+    .line_black_sub{
+        width: 100%;
+        height: 1px;
+        background-color: #000000a3;
+        position: relative;
+        margin: auto;
+        margin-top: -1px;
+    }
+    .line_white_sub{
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        position: relative;
+        margin: auto;
+        margin-top: -1px;
+    }
+    .sub-nav-dark{
+        nav{
+            font-size: 30px;
+            justify-content: space-evenly;
+            //border-bottom: 1px solid;
+        }
+        .nav-link{
+            color:black;
+            border-bottom: 1px solid black;
+            &:hover{
+                color: $orange;
+                border-bottom: 3px solid;
+                font-weight: 500;
+            }
+    
+        }
+    }
+    .sub-nav-light{
+        nav{
+            font-size: 30px;
+            justify-content: space-evenly;
+            //border-bottom: 1px solid;
+        }
+        .nav-link{
+            color:white;
+            border-bottom: 1px solid white;
+            &:hover{
+                color: $orange;
+                border-bottom: 3px solid;
+            }
+            &::after :active :any-link{
+                color: $orange !important;
+            }
+    
+        }
+
+    }
+}
+#subNavFixedW{
+    transition: 0.3s ease-in;
+}
+#subNavFixedD{
+    transition: 0.3s ease-in;
+}
+.subNavFixedW{
+    top: 0px;
+    height:58px;
+    padding-top:20px;
+    z-index:999;
+}
+.subNavFixedD{
+    top: 0px;
+    height:58px;
+    padding-top:20px;
+    z-index:999;
+}
+.bg-escuro{
+    background-color:black;
+}
+.bg-claro{
+    background-color:white;
+}
+    
+
+.current-link{
+    .current_page_item  {
+                a{
+                color: #ff5834 !important;
+                border-bottom: 3px solid !important;
+                font-weight: 500 !important;  
+                } 
+            }      
+}
+       
+
+

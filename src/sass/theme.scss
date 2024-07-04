@@ -1,0 +1,32 @@
+@import "theme/theme_variables";  // <-------- Add your variables into this file. Also add variables to overwrite Bootstrap or carsandarts variables here
+@import "assets/bootstrap5/bootstrap";      // <-------- Loads Bootstrap4
+@import "theme/carsandarts";  // <-------- Loads the carsandarts defaults. Just a few classes to incorporate BS in WP
+@import "theme/colors";           // <-------- This creates the necessary bootstrap color classes.
+@import "theme/blocks";           // <-------- This adds Bootstrap styles to blocks.
+@import "theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support
+@import "theme/sliders";
+@import "theme/home_products";
+@import "theme/home_why_carts";
+@import "theme/newsletter-call";
+@import "theme/home_brands_CalltoAction";
+@import "theme/producttypes";
+@import "theme/modals";
+@import "theme/contacts";
+@import "theme/about_us";
+@import "theme/header_sub";
+@import "theme/footer";
+@import "theme/header";
+@import "theme/brands";
+@import "theme/artists";
+@import "theme/gallery";
+@import "theme/404";
+@import "theme/archive_products";
+
+//@import "theme/woocommerce"; // <-------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
+
+// Optional files - If you dont use the corresponding scripts/fonts comment em out
+@import "assets/fontawesome/font-awesome";    // <-------- Font Awesome Icon font
+
+// Any additional imported files //
+@import "theme/theme";            // <-------- That's where you can add your own design. Thats your part!
+

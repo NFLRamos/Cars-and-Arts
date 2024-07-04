@@ -1,0 +1,105 @@
+// This is an empty scss file for your custom styles
+
+@font-face {
+    font-family: 'Megidana';
+    src: url('../fonts/MegidanaRegular.woff2') format('woff2'),
+        url('../fonts/MegidanaRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+// Headers
+
+h1{
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 400;
+}
+h3{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
+    font-family: 'Megidana';
+}
+.title-big{
+    font-size:120px;
+}
+
+p{
+    font-size:18px;
+    line-height: 130%;
+}
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:18px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+//butoes + links clickaveis
+
+.btn{
+    background-color: #f9fafb;
+    border: 1px solid #f9fafb;
+    font-weight: 700;
+    border-radius: 0!important;
+    width: 175px;
+    height: 70px;
+    padding-top: 22px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    z-index: 1;
+    &:hover{
+       background-color: $orange;
+       border-color:$orange;
+       transition:0.5s;
+    }
+    &:focus{
+        box-shadow: 0 0 0 0.25rem rgb(255 126 51 / 26%);
+    }
+}
+.btn-white{
+    color:white;
+    background-color: transparent;
+    border: 1px solid #f9fafb;
+    font-weight: 700;
+    border-radius: 0!important;
+    width: 175px;
+    height: 70px;
+    padding-top: 22px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    z-index: 1;
+    &:hover{
+       background-color: #f9fafb;
+       border-color:#f9fafb;
+       color: black;
+       transition:0.5s;
+    }
+    &:focus{
+        box-shadow: 0 0 0 0.25rem rgb(255 126 51 / 26%);
+    }
+}
+.link-produtos{
+    align-self: center;
+    color: white;
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration: none;
+    font-weight: 600; 
+    &:hover{
+        color:white;
+        text-decoration: underline;
+        transition:0.5s;
+    }
+}  
+
+

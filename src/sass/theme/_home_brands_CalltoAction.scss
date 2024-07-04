@@ -1,0 +1,203 @@
+.elipse1{
+    z-index: 1;
+    background-image: url(../assets/elipse.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    margin-top: 10%;
+}
+@media (min-width:1400px) {
+    .elipse1{
+        z-index: 1;
+        background-image: url(../assets/elipse.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: unset;
+        width: 100%;
+        height: 650px;
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 40%;
+    }
+}
+.elipse2{
+    z-index: 0;
+    background-image: url(../assets/elipse2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    margin-top: 9%;
+}
+@media (min-width:1400px) {
+    .elipse2{
+        z-index: 0;
+        background-image: url(../assets/elipse2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: unset;
+        left:46%;
+        width: 100%;
+        height: 650px;
+        position: absolute;
+        margin-top: -10%;
+    }
+}
+.elipse3{ 
+    z-index: 0;
+    background-image: url(../assets/elipse.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: 12%;
+}
+@media (min-width:1400px) {
+    .elipse3{ 
+        z-index: 0;
+        background-image: url(../assets/elipse.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: unset;
+        width: 100%;
+        height: 600px;
+        position: absolute;
+        margin-top: -2%;
+        left: 40%;
+    }
+}
+
+.formata-logos{
+    width: 100px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.formata-imagem{
+    background-image: url('../assets/cover_brand.png');
+    background-size: cover;
+    background-position: center;
+    width:100%; 
+    height:400px; 
+
+    h2{
+        text-align: center;
+        color: white;
+        position: relative;
+        top: 18%;
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+@media (min-width:992px) {
+    .formata-imagem{
+        background-image: url('../assets/cover_brand.png');
+        background-size: cover;
+        background-position: center;
+        width:100%; 
+        height:700px; 
+    
+        h2{
+            color: #fff;
+            position: relative;
+            top: 40%;
+            font-size: 48px;
+            line-height: 58px;
+            width: 50%;
+            margin: auto;
+        }
+    }
+}
+
+.text-alinhamentos-branco{
+    color: #fff;
+    align-items: center;
+    margin-top: -15px;
+    padding: 20px;
+
+    h1{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+
+    }
+    h2{
+        color: $orange;
+        font-size: 30px;
+        //line-height: 53px;
+    }
+
+    .btn-white{
+        color: #fff;
+    background-color: transparent;
+    border: 1px solid #f9fafb;
+    border-radius: 0!important;
+    width: 175px;
+    height: 70px;
+    padding-top: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    z-index: 1;
+    margin-left: 20px;
+    }
+    .btn{
+        font-size:16px;
+    }
+}
+
+    @media (min-width:992px) {
+
+        .text-alinhamentos-branco{
+            color: #fff;
+            align-items: center;
+            margin-top: -15px;
+            padding: unset;
+        .btn-white{
+            color: #fff;
+        background-color: transparent;
+        border: 1px solid #f9fafb;
+        border-radius: 0!important;
+        width: 175px;
+        height: 70px;
+        padding-top: 22px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        z-index: 1;
+        margin-left: 50px;
+        }
+        .btn{
+            font-size:18px;
+        }
+        h1{
+            font-size: 120px;
+            line-height: 120px;
+            font-weight: 400;
+            }
+        h2{
+                color: $orange;
+                font-size: 48px;
+                line-height: 53px;
+            }
+    }        
+}
+.format-call{
+    padding-top:15%;
+    padding-bottom:15%;
+    background: rgb(0,0,0);
+}
+@media (min-width:1200px) {
+    .format-call{
+        padding-top:10%;
+        padding-bottom:10%;
+        background: rgb(0,0,0);
+    }
+}

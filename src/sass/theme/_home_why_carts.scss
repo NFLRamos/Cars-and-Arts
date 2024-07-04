@@ -1,0 +1,109 @@
+.linha{
+    width: 300px;
+    height: 1px;
+    background-color: #939393;
+    margin-left: 30%;
+}
+.text-alinhamentos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding:20px;
+    h1{
+        font-size: 50px;
+        line-height:60px;
+    }
+    p{
+        font-size: 16px;
+    }
+
+}
+@media (min-width:992px) {
+    .text-alinhamentos{
+        display: flex;
+        flex-direction: column;
+        margin-top: -15px;
+        padding:unset;
+        h1{
+            font-size: 100px !important;
+            line-height: 100px !important;
+        }
+        p{
+            font-size: 18px !important;
+        }
+    
+    }
+}
+
+.slick-format{
+    .slick-dots{
+        //bottom:10px;
+    }
+    .slick-dots li button:before{
+        font-size:30px;
+        line-height: 30px;
+        color:white;
+        opacity: 0.5;
+    }
+    .slick-dots li.slick-active button:before{
+        font-size:35px;
+        color: $orange;
+    }
+}
+.format-col{
+    height: 250px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 1px solid #00000021;
+    //border-radius: 5px;
+    margin-bottom: 50px;
+    h2{
+        margin-top:20px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    p{
+        margin-top: 16px;
+
+    }
+    img{
+        height:40px;
+        width:40px;
+        object-fit: contain;
+    }
+}
+@media (min-width:992px) {
+    .format-col{
+        height: 600px;
+        padding-top: 100px;
+        padding-left: 70px;
+        padding-right: 70px; 
+        height:600px;
+        border:unset;
+        border-right: 1px solid #939393;
+        border-radius: unset;
+        margin-bottom: unset;
+        &:last-child{
+            border-right:unset !important;
+        }
+        h2{
+            margin-top:20px;
+            font-size: 32px;
+            line-height: 38px;
+        }
+        p{
+            margin-top: 20px;
+    
+        }
+        &:hover{
+            background-color: #fbfbfb;
+            transition:0.5s;
+        }
+        img{
+            height:40px;
+            width:40px;
+            object-fit: contain;
+        }
+    }
+}
